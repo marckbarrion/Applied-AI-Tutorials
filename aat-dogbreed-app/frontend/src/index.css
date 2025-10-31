@@ -1,0 +1,11 @@
+/* src/index.css — Tailwind v4 style */
+@import "tailwindcss";
+
+/* Smooth transitions for a polished feel */
+* { transition: all 160ms ease-in-out; }
+
+/* Optional: app background to your Soft Beige */
+html, body, #root {
+  height: 100%;
+  background: #F1FAEE; /* Soft Beige */
+}

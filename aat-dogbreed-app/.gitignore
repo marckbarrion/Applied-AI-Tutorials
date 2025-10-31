@@ -1,0 +1,23 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# TensorFlow checkpoints / temp
+*.h5
+*.hdf5
+*.ckpt
+*.tfrecord
+
+# Node
+frontend/node_modules/
+frontend/dist/
+*.log
+
+# OS & editor
+.DS_Store
+Thumbs.db
+
+# Windows ADS (NTFS alternate data streams copied into WSL)
+*:Zone.Identifier
+
