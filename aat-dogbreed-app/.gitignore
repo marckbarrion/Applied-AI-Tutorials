@@ -3,7 +3,7 @@ backend/.venv/
 __pycache__/
 *.pyc
 
-# TensorFlow checkpoints / temp
+# TensorFlow artifacts
 *.h5
 *.hdf5
 *.ckpt
@@ -12,12 +12,15 @@ __pycache__/
 # Node
 frontend/node_modules/
 frontend/dist/
-*.log
+npm-debug.log*
+yarn-error.log*
 
-# OS & editor
+# OS / editor
 .DS_Store
 Thumbs.db
 
-# Windows ADS (NTFS alternate data streams copied into WSL)
+# Windows ADS (alternate data streams copied into WSL)
 *:Zone.Identifier
 
+# Models - keep huge files out of normal git
+backend/*.keras
